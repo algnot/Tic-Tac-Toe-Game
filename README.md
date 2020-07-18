@@ -4,6 +4,7 @@ The code will start at the index.html file and go to the start.html file.
 The above file is only an example. You can see the results at www.tongog.com/game_tic_tac_toe/intro.html
 
 # The coder in index.html
+index.html is the default file, which will allow users to enter a name to start the game.
 ```html
 <html lang="en">
 <head>
@@ -51,6 +52,7 @@ The above file is only an example. You can see the results at www.tongog.com/gam
 ```
 
 # The coder in start.html
+The start.html file will be the structure for the game's appearance when the user has finished filling in the name.
 ```html
 <html lang="en">
 <head>
@@ -95,6 +97,7 @@ The above file is only an example. You can see the results at www.tongog.com/gam
 ```
 
 # The coder in javascript file
+In the JavaScript file, there are functions that start the game and how to think of the bot.
 ```javascript
 var IsPlaying = false;
 var board = ['','','',
@@ -345,6 +348,7 @@ function botClick(btnBot){
 }
 ```
 # The coder in css file
+Both the index and start files are decorated with the same css file.
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap');
 html,body {
