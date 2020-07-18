@@ -28,7 +28,6 @@
     </div>
     
     <center> <p style="width: 400px; margin: 0 auto;">สาร์นจากต้นกก : สู้ๆนะ  <span> <?php echo $_GET['name']; ?> </span> 
-                <button class="link" onclick="location.href='/index.php'"> กลับเว็บไซต์ tongog.com </button>
                 <br>
             </p>       
     </center>
