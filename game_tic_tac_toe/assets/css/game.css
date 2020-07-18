@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap');
+
+html,body {
+    font-family: 'Athiti', sans-serif;
+    text-transform: uppercase;
+}
+
+#scene {
+    width: 400px;
+    height: 400px;
+    background: #eaeaea;
+    overflow: hidden;
+    margin: 16px auto;
+    position: relative;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.1), -2px 2px 4px rgba(0,0,0,.1);
+}
+
+.box-game{
+    width: 400px;
+    margin: 20px auto 10px auto;
+    padding: 0;
+    background: #eaeaea;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.1), -2px 2px 4px rgba(0,0,0,.1);
+}
+
+.story {
+    font-size: 16px;
+    padding: 20px;
+}
+
+#board{
+    position: absolute;
+    display: block;
+    width: 400px;
+    bottom: 0; 
+}
+
+.btn1{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    width: 133.33px;
+    height: 133.33px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-size: 100px;
+}
+
+#scoreboard{
+    width: 400px;
+    margin: 4px auto;
+    padding: 0;
+    background: #eaeaea;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.1), -2px 2px 4px rgba(0,0,0,.1);
+}
+
+#scoreboard:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+#scoreboard li {
+    list-style: none;
+    box-sizing: border-box;
+    width: 33%;
+    padding: 4px;
+    text-align: center;
+    float: left;
+}
+
+span {
+    font-weight: bold;
+    color: #55f;
+}
+
+p {
+    margin: 4px auto;
+    padding: 20px 0;
+    background: #eaeaea;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.1), -2px 2px 4px rgba(0,0,0,.1);  
+}
+
+button {
+    font-family: 'Athiti', sans-serif;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 5.5px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.1), -2px 2px 4px rgba(0,0,0,.1);  
+}
+
+form {
+    margin-top: 40px;
+}
+
+
+* {
+	font-family: 'Athiti', sans-serif;
+}
+
+input[type=submit] {
+    width: 80%;
+    font-size: 15px;
+    background-color: #55f;
+    color: white;
+    padding: 7px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.link {
+    width: 80%;
+    font-size: 15px;
+    background-color: #55f;
+    color: white;
+    padding: 7px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+
+
+:root {
+	--omrs-color-ink-lowest-contrast: rgba(47, 60, 85, 0.18);
+	--omrs-color-ink-low-contrast: rgba(60, 60, 67, 0.3);
+	--omrs-color-ink-medium-contrast: rgba(19, 19, 21, 0.6);
+	--omrs-color-interaction: #1e4bd1;
+	--omrs-color-interaction-minus-two: rgba(73, 133, 224, 0.12);
+	--omrs-color-danger: #b50706;
+	--omrs-color-ink-high-contrast: #121212;
+}
+
+/** END: Non Openmrs CSS **/
+div.omrs-input-group {
+  margin-bottom: 1.5rem;
+  position: relative;
+  width: 20.4375rem;
+}
+
+/* Input*/
+.omrs-input-underlined > input,
+.omrs-input-filled > input {
+    border: none;
+    box-shadow: none;
+	border-bottom: 0.125rem solid var(--omrs-color-ink-medium-contrast);
+	width: 100%;
+    height: 2rem;
+	font-size: 1.0625rem;
+	padding-left: 0.875rem;
+	line-height: 147.6%;
+	padding-top: 0.825rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(0,0,0,0);
+}
+
+.omrs-input-underlined > input:focus,
+.omrs-input-filled > input:focus {
+	outline: none;
+}
+
+.omrs-input-underlined > .omrs-input-label,
+.omrs-input-filled > .omrs-input-label {
+	position: absolute;
+	top: 5px;
+	left: 0.5rem;
+	line-height: 140%;
+	color: var(--omrs-color-ink-medium-contrast);
+	transition: top .2s;
+}
+
+.omrs-input-underlined > input:hover,
+.omrs-input-filled > input:hover {
+	background: var(--omrs-color-interaction-minus-two);
+	border-color: var(--omrs-color-ink-high-contrast);
+}
+
+.omrs-input-underlined > input:focus + .omrs-input-label,
+.omrs-input-underlined > input:valid + .omrs-input-label,
+.omrs-input-filled > input:focus + .omrs-input-label,
+.omrs-input-filled > input:valid + .omrs-input-label {
+    top: -25px;
+    left: 2px;
+	font-size: 0.9375rem;
+	margin-bottom: 40px;
+}
+
+.omrs-input-underlined:not(.omrs-input-danger) > input:focus + .omrs-input-label,
+.omrs-input-filled:not(.omrs-input-danger) > input:focus + .omrs-input-label {
+	color: var(--omrs-color-interaction);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.topic_container{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.info_container1 {
+    text-align: left;
+    margin: 10px 0px 10px 30px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.info_container2 {
+    text-align: right;
+    margin: 10px 30px 10px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
