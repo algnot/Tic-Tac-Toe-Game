@@ -1,7 +1,7 @@
 # Tic-Tac-Toe Game with javascript
 You can download game files in the file folder game_tic_tac_toe.
 The code will start at the index.html file and go to the start.html file.
-The above file is only an example. You can see the results at www.tongog.com/game_tic_tac_toe/intro.html
+The above file is only an example.
 
 # The coder in index.html
 index.html is the default file, which will allow users to enter a name to start the game.
