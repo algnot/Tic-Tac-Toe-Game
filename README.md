@@ -1,5 +1,6 @@
 # Tic-Tac-Toe Game with javascript
 You can download game files in the file folder game_tic_tac_toe.
+or click link : https://algnot.github.io/Tic-Tac-Toe-Game/game_tic_tac_toe/
 The code will start at the index.html file and go to the start.html file.
 The above file is only an example.
 
